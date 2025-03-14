@@ -58,7 +58,7 @@ namespace WFAHavaYollariProjesi.UI
 
                 SmtpClient smtp = new SmtpClient("smtp.gmail.com");
                 smtp.Port = 587;
-                smtp.Credentials = new NetworkCredential("berkayarslanyzl@gmail.com", "tbcpbjnnhtrogrso");
+                smtp.Credentials = new NetworkCredential("berkayarslanyzl@gmail.com", "//(Uygulama þifresi girilecek)");
                 smtp.EnableSsl = true;
                 smtp.Send(mailMessage);
                 MessageBox.Show("Mail baþarýyla gönderildi.");
